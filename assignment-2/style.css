@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+width: 100%;
+height: 100%;
+padding: 1rem; 
+background: #000000;
+/* border: 5px solid red; */
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 17px;
+}
+
+#main{
+    color: #05980B;
+    display: flex;
+    flex-wrap: wrap;
+    /* if it takes 50% of screen, then wrap*/
+    max-width: 900px;
+    margin: auto; 
+    margin-bottom: 20%;
+}
+
+#red-text{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* giving red text a max width with 0s all around and centered text*/
+
+}
+
+.history {
+    /* position: absolute;
+width: 183px;
+height: 237px;
+left: 122px;
+top: 104px; */
+width: 50%;
+padding: 1rem; 
+}
+  
+.importance {
+    /* position: absolute;
+width: 203px;
+height: 237px;
+left: 339px;
+top: 102px; */
+width: 50%;
+padding: 1rem; 
+}
+  
+.ericka {
+    /* position: absolute;
+width: 186px;
+height: 237px;
+left: 557px;
+top: 100px; */
+width: 50%;
+padding: 1rem; 
+}
+  
+.rachel {
+    /* position: absolute;
+width: 186px;
+height: 237px;
+left: 777px;
+top: 101px; */
+width: 50%;
+padding: 1rem; 
+}
+
+.header_5 {
+    /* position: absolute;
+width: 178px;
+height: 52px;
+left: 333px;
+top: 585px; */
+
+font-size: 45px;
+line-height: 52px;
+/* identical to box height */;
+padding-left: 30%;
+
+}
+
+.header_4 {
+    /* position: absolute;
+width: 466px;
+height: 77px;
+left: 520px;
+top: 658px; */
+
+font-weight: bold;
+font-size: 67px;
+line-height: 77px;
+/* padding-left: 50%; */
+text-align: right;
+/* identical to box height */
+}
+  
+.header_3 {
+    /* position: absolute;
+width: 636px;
+height: 146px;
+left: 334px;
+top: 735px; */
+
+font-weight: bold;
+font-size: 127px;
+line-height: 146px;
+/* identical to box height */
+padding-left: 30%;
+}
+
+.header_2 {
+
+/* position: absolute;
+width: 556px;
+height: 239px;
+left: 102px;
+top: 838px; */
+font-size: 208px;
+line-height: 239px;
+text-align: left;
+}
+
+.header_2:hover {
+color: black;
+}
+
+
+.header_1 {
+font-size: 320px;
+line-height: 368px;
+/* identical to box height */
+text-align: right;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #EE2525;
+}
+
+@media screen and (min-width:700px){
+    .history, .importance, .ericka, .rachel {
+        width: 25%;
+    }
+  }
+
+
+@media screen and (min-width:300px) and (max-width: 600px){
+    #redtext{
+      font-size:1rem;
+    }
+  }
+  @media screen and (min-width:601px) and (max-width: 800px){
+    #redtext{
+      font-size:2rem;
+    }
+  }
+  @media screen and (min-width:801px) and (max-width: 1000px){
+    #redtext{
+      font-size:3rem;
+    } 
+  

@@ -1,0 +1,21 @@
+body{ 
+    background-color:black;
+    color:white;
+    font-size: 33.5px;
+    font-family: 'Shadows Into Light', cursive;    
+  }
+  a:link {text-decoration: none; color: 000000}
+  a:visited {text-decoration: none; color: 000000}
+  a:active {text-decoration: none; color: 000000}
+  a:hover {text-decoration: none; color: #0feb58}
+
+  .sad-girl{
+  float: right;
+  margin-left:5px;
+  }
+
+  .through-the-mud {
+    font-family: 'Dancing Script', serif;
+    text-align: right;
+    color: darkblue;
+  }

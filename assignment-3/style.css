@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.2;
+    color: #666;
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.abstract {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lead_paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .headline {
+        font-size: 2.2rem;
+    }
+    .abstract {
+        font-size: 1.2rem;
+    }
+    .lead_paragraph {
+        font-size: .5 rem;
+    }
+}
